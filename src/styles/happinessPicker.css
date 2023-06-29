@@ -1,0 +1,25 @@
+p {
+  color: seashell;
+  width: 200px;
+}
+
+.btns__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  width: 50px;
+  height: 40px;
+  font-size: x-large;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: dimgray;
+  border: 2px solid deeppink;
+}
